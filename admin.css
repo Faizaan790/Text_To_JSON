@@ -1,0 +1,19 @@
+/*  */
+.carousal_Container{
+    display: grid;
+    place-items: center;
+    margin-top:4%;
+    margin-bottom:5%;
+
+}
+body{
+    background-color:rgb(70, 70, 70) !important;
+}
+.carousel-inner > .carousel-item{
+   transform: translateX(16%);
+}
+.carousal_section{
+    width:600px;
+    height: auto;
+    max-width:800px;
+}
